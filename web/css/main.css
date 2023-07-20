@@ -1,0 +1,169 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 50px 100px;
+}
+
+header h1 {
+    font-size: 55px
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    padding: 10px 0;
+}
+
+.login {
+    margin: 0 37%;
+}
+
+.container_sm {
+    max-width: 1470px !important;
+}
+
+.col {
+    padding: 0 17px !important;
+}
+
+.image-detail img {
+    width: 400px;
+    height: 400px;
+}
+
+button.btn_detail {
+    background-color: #428BCA;
+    border: 2px solid #237bc7;
+    color: white;
+    margin-right: 1.2rem;
+
+}
+
+button.btn_back {
+    background-color: #5CB85C;
+    border: 2px solid #30bb30;
+    color: white;
+    margin-right: 7px;
+
+}
+
+button.btn_order {
+    background-color: #F0AD4E;
+    border: 2px solid #dd9837;
+    color: white;
+    margin-left: 1.2rem;
+}
+
+.errortxt{
+    text-align:left;
+    color:#ff0000;
+    margin-top:8px;
+}
+
+.products-list:hover{
+       border: 1px solid orange;
+}
+.products-list{
+    padding: 1rem;
+}
+.products-list h5:hover{
+        color:grey;
+}
+
+.carousel-item {
+      height: 50vh;
+    }
+.card {
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.footer-cta {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.price {
+  color: #263238;
+  font-size: 24px;
+}
+
+.card-title {
+color:#263238
+}
+
+.sale {
+  color: #E53935
+}
+
+.sale-badge {
+  background-color: #E53935
+}
+
+.cate-list{
+    overflow-y: hidden;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-users th{
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+   text-align: center;
+   padding: 20px;
+   background-color: #237bc7;
+}
+.table-users td{
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+   padding: 10px;
+   text-align: center;
+}
+.table-users tr:hover{
+   background-color: rgb(217, 210, 210);
+}
+.right h1{
+   text-align: center;
+}
+
+.right form{
+   display: flex;
+   justify-content: right;
+   padding-top: 1em;
+   text-align: center;
+   font-size: 1em;
+   font-weight: bold;
+}
+
+.table-users{
+   display: flex;
+   justify-content: center;
+}
+.createP{
+   font-size: 1.5em;
+   margin-bottom: 0.5em;
+}
+
+.right p{
+   margin-top: 1em;
+   margin-right: 1em;
+   margin-left: 1em;
+}
+.header-main{
+   display: flex;
+}
+.header-info{
+   margin-right: 10em;
+}
+
+
+
+
